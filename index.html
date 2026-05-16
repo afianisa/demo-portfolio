@@ -28,9 +28,7 @@
       color: var(--text);
     }
 
-    /* ═══════════════════════════════
-       NAVBAR
-    ═══════════════════════════════ */
+    
     .navbar {
       background: var(--white);
       border-bottom: 1px solid var(--border);
@@ -79,15 +77,13 @@
     }
     .btn-hire:hover { background: var(--accent-dark); }
 
-    /* ═══════════════════════════════
-       LAYOUT WRAPPER (sidebar + content)
-    ═══════════════════════════════ */
+    
     .page-layout {
       display: flex;
       min-height: 100vh;
     }
 
-    /* Sidebar "Developer" label */
+    
     .sidebar {
       width: var(--sidebar-w);
       background: var(--white);
@@ -470,9 +466,7 @@
     .resume-desc { font-size: 0.775rem; color: #666; line-height: 1.6; }
     .resume-center { text-align: center; }
 
-    /* ═══════════════════════════════
-       CONTACT
-    ═══════════════════════════════ */
+    
     .contact { background: var(--bg-section); }
     .contact-grid {
       display: grid;
@@ -537,9 +531,7 @@
     }
     .btn-submit:hover { background: var(--accent-dark); }
 
-    /* ═══════════════════════════════
-       FOOTER
-    ═══════════════════════════════ */
+  
     footer {
       background: var(--white);
       border-top: 1px solid var(--border);
@@ -549,9 +541,7 @@
       color: #aaa;
     }
 
-    /* ═══════════════════════════════
-       ANIMATIONS
-    ═══════════════════════════════ */
+   
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(20px); }
       to   { opacity: 1; transform: translateY(0); }
@@ -565,7 +555,7 @@
 </head>
 <body>
 
-<!-- ═══ NAVBAR ═══ -->
+
 <nav class="navbar">
   <a class="logo" href="#">Afi<span>a</span></a>
   <ul class="nav-links">
@@ -580,12 +570,12 @@
 
 <div class="page-layout">
 
-  <!-- ═══ SIDEBAR ═══ -->
+  
   <div class="sidebar">
     <span>Developer</span>
   </div>
 
-  <!-- ═══ MAIN ═══ -->
+  
   <div class="main-content">
 
     <!-- HERO -->
@@ -597,7 +587,7 @@
           I'm a designer &amp; developer with a passion for web design. I enjoy developing simple, clean and fast websites that provide real value to the end user. Delivering work within time and budget.
         </p>
         <div class="hero-btns">
-          <a href="./images/cv.pdf" download class="btn-primary">
+          <a href="cv.pdf" download class="btn-primary">
             <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"/></svg>
             Download CV
           </a>
@@ -610,7 +600,7 @@
       <div class="hero-right">
         <div class="hero-blob"></div>
         <div class="hero-photo">
-          <img src="./images/tooldp.png" alt="Afia" onerror="this.style.opacity='0'"/>
+          <img src="tooldp.png" alt="Afia" onerror="this.style.opacity='0'"/>
         </div>
       </div>
     </section>
@@ -642,7 +632,7 @@
       </div>
     </section>
 
-    <!-- SKILLS -->
+    
     <section id="skills" class="skills">
       <div class="section-eyebrow"></div>
       <h2 class="section-title">What I Do</h2>
@@ -684,7 +674,7 @@
       </div>
     </section>
 
-    <!-- PROJECTS -->
+    
     <section id="projects" class="projects">
       <div class="section-eyebrow"></div>
       <h2 class="section-title">My Projects</h2>
@@ -720,7 +710,7 @@
         </div>
 
        <div class="project-card fade d3">
-  <img class="project-img" src="./images/delivery.png" alt="AI Image Generator"/>
+  <img class="project-img" src="delivery.png" alt="AI Image Generator"/>
   
   <div class="project-body">
     <span class="project-tag">Generative AI</span>
@@ -778,7 +768,7 @@
       </div>
     </section>
 
-    <!-- ACHIEVEMENTS -->
+    
     <section id="achievements" class="achievements">
       <div class="section-eyebrow"></div>
       <h2 class="section-title">My Achievements &amp; Certificates</h2>
@@ -787,7 +777,7 @@
 
         <div class="achieve-card fade d1">
           <div class="achieve-img">
-            <img src="./images/deep-learning.jpeg" alt="Deep Learning Certificate" onerror="this.style.display='none'"/>
+            <img src="deep-learning.jpeg" alt="Deep Learning Certificate" onerror="this.style.display='none'"/>
           </div>
           <div class="achieve-body">
             <p class="achieve-org">IEEE Computer Society · 2025</p>
@@ -797,7 +787,7 @@
 
         <div class="achieve-card fade d2">
           <div class="achieve-img">
-            <img src="./images/hacking.jpeg" alt="Ethical Hacking" onerror="this.style.display='none'"/>
+            <img src="hacking.jpeg" alt="Ethical Hacking" onerror="this.style.display='none'"/>
           </div>
           <div class="achieve-body">
             <p class="achieve-org">University Seminar · 2025</p>
@@ -807,7 +797,7 @@
 
         <div class="achieve-card fade d3">
           <div class="achieve-img">
-            <img src="./images/technology.jpeg" alt="IT Certificate" onerror="this.style.display='none'"/>
+            <img src="technology.jpeg" alt="IT Certificate" onerror="this.style.display='none'"/>
           </div>
           <div class="achieve-body">
             <p class="achieve-org">IEEE Computer Society · 2024</p>
@@ -817,7 +807,7 @@
 
         <div class="achieve-card fade d4">
           <div class="achieve-img">
-            <img src="./images/olympiad.jpeg" alt="Olympiad" onerror="this.style.display='none'"/>
+            <img src="olympiad.jpeg" alt="Olympiad" onerror="this.style.display='none'"/>
           </div>
           <div class="achieve-body">
             <p class="achieve-org">English Event · 2018</p>
@@ -857,7 +847,7 @@
           </div>
         </div>
 
-        <!-- Experience -->
+      
         <div>
           <p class="resume-col-title">My Experience</p>
           <div class="resume-items">
@@ -881,14 +871,14 @@
 
       </div>
       <div class="resume-center">
-        <a href="./images/cv.pdf" download class="btn-primary" style="display:inline-flex;">
+        <a href="cv.pdf" download class="btn-primary" style="display:inline-flex;">
           <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"/></svg>
           Download CV
         </a>
       </div>
     </section>
 
-    <!-- CONTACT -->
+    
     <section id="contact" class="contact">
       <div class="contact-grid">
 
@@ -921,7 +911,7 @@
       </div>
     </section>
 
-    <!-- FOOTER -->
+    
     <footer>© 2026 Afia's Portfolio. Crafted with ♥</footer>
 
   </div>
